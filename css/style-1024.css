@@ -1,0 +1,23 @@
+@media (max-width:1024px) {
+  body {
+    margin: 0 auto;
+
+  }
+
+  .container {
+    max-width: 1024px;
+    min-height: 800px;
+  }
+
+  .title-one {
+    top: 1%;
+    left: 39%;
+    font-size: 70px;
+  }
+
+  .box__all {
+    width: 17.5%;
+    height: 100px;
+
+  }
+}
