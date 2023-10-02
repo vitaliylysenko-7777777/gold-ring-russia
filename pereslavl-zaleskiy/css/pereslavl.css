@@ -231,7 +231,6 @@ li {
   gap: 60px;
   max-width: 1780px;
   min-height: 200px;
-
 }
 
 .history__box_all,
@@ -262,134 +261,134 @@ li {
 }
 
 .history__box_top {
-  background-image: url(../img/old-foto/img-old-1.PNG);
+  background-image: url(../img/old-foto/img-old-1.jpg);
 }
 
 .history__box_1 {
-  background-image: url(../img/old-foto/img-old-2.PNG);
+  background-image: url(../img/old-foto/img-old-2.jpg);
 
 }
 
 .history__box_2 {
-  background-image: url(../img/old-foto/img-old-3.PNG);
+  background-image: url(../img/old-foto/img-old-3.jpg);
 
 }
 
 .history__box_3 {
-  background-image: url(../img/old-foto/img-old-4.PNG);
+  background-image: url(../img/old-foto/img-old-4.jpg);
 
 }
 
 .history__box_4 {
-  background-image: url(../img/old-foto/img-old-5.PNG);
+  background-image: url(../img/old-foto/img-old-5.jpg);
 
 }
 
 .history__box_5 {
-  background-image: url(../img/old-foto/img-old-6.PNG);
+  background-image: url(../img/old-foto/img-old-6.jpg);
 
 }
 
 .history__box_6 {
-  background-image: url(../img/old-foto/img-old-7.PNG);
+  background-image: url(../img/old-foto/img-old-7.jpg);
 
 }
 
 .history__box_7 {
-  background-image: url(../img/old-foto/img-old-8.PNG);
+  background-image: url(../img/old-foto/img-old-8.jpg);
 
 }
 
 .history__box_8 {
-  background-image: url(../img/old-foto/img-old-9.PNG);
+  background-image: url(../img/old-foto/img-old-9.jpg);
 
 }
 /* Эпоха СССР*/
 .history__foto_sssr-top {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-1.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-1.jpg);
 }
 
 .history__foto_sssr-1 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-2.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-2.jpg);
 
 }
 
 .history__foto_sssr-2 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-3.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-3.jpg);
 
 }
 
 .history__foto_sssr-3 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-4.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-4.jpg);
 
 }
 
 .history__foto_sssr-4 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-5.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-5.jpg);
 
 }
 
 .history__foto_sssr-5 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-6.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-6.jpg);
 
 }
 
 .history__foto_sssr-6 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-7.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-7.jpg);
 
 }
 
 .history__foto_sssr-7 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-8.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-8.jpg);
 
 }
 
 .history__foto_sssr-8 {
-  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-9.PNG);
+  background-image: url(../img/pereslavl-1950/img-pereslavl-1950-9.jpg);
 
 }
 /*Сегодня*/
 .history__pereslavl_today-top {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-1.PNG);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-1.jpg);
 }
 
 .history__pereslavl_today-1 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-2.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-2.jpg);
 
 }
 
 .history__pereslavl_today-2 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-3.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-3.jpg);
 
 }
 
 .history__pereslavl_today-3 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-4.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-4.jpg);
 
 }
 
 .history__pereslavl_today-4 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-5.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-5.jpg);
 
 }
 
 .history__pereslavl_today-5 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-6.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-6.jpg);
 
 }
 
 .history__pereslavl_today-6 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-7.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-7.jpg);
 
 }
 
 .history__pereslavl_today-7 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-8.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-8.jpg);
 
 }
 
 .history__pereslavl_today-8 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-9.png);
+  background-image: url(../img/pereslavl-today/img-pereslavl-today-9.jpg);
 
 }
 
@@ -401,7 +400,7 @@ li {
 
 /*kreml*/
 .kreml__box_top {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-1.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-1.jpg);
 
 }
 
@@ -410,36 +409,36 @@ li {
 }
 
 .kreml__box-1 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-2.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-2.jpg);
 
 }
 
 .kreml__box-2 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-3.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-3.jpg);
 }
 
 .kreml__box-3 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-4.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-4.jpg);
 }
 
 .kreml__box-4 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-5.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-5.jpg);
 }
 
 .kreml__box-5 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-6.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-6.jpg);
 }
 
 .kreml__box-6 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-7.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-7.jpg);
 }
 
 .kreml__box-7 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-8.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-8.jpg);
 }
 
 .kreml__box-8 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-9.PNG);
+  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-9.jpg);
 }
 
 .kreml__box_text,
@@ -451,7 +450,7 @@ li {
 
 /*nikitskiy-hram*/
 .nikitskiy-hram__box_top {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-1.PNG);
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-1.jpg);
 }
 
 .nikitskiy-hram__box-desc {
@@ -459,43 +458,43 @@ li {
 }
 
 .nikitskiy-hram__box-1 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-2.PNG);
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-2.jpg);
 
 }
 
 .nikitskiy-hram__box-2 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-3.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-3.jpg)
 }
 
 .nikitskiy-hram__box-3 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-4.PNG);
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-4.jpg);
 
 }
 
 .nikitskiy-hram__box-4 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-5.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-5.jpg)
 }
 
 .nikitskiy-hram__box-5 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-6.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-6.jpg)
 }
 
 .nikitskiy-hram__box-6 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-7.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-7.jpg)
 }
 
 .nikitskiy-hram__box-7 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-8.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-8.jpg)
 }
 
 .nikitskiy-hram__box-8 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-9.PNG)
+  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-9.jpg)
 }
 
 /*botik*/
 
 .botik__box_top {
-  background-image: url(../img/botik-petra/img-botik-1.PNG);
+  background-image: url(../img/botik-petra/img-botik-1.jpg);
 }
 
 .botik__box-desc {
@@ -503,42 +502,42 @@ li {
 }
 
 .botik__box-1 {
-  background-image: url(../img/botik-petra/img-botik-2.PNG);
+  background-image: url(../img/botik-petra/img-botik-2.jpg);
 
 }
 
 .botik__box-2 {
-  background-image: url(../img/botik-petra/img-botik-3.PNG);
+  background-image: url(../img/botik-petra/img-botik-3.jpg);
 
 }
 
 .botik__box-3 {
-  background-image: url(../img/botik-petra/img-botik-4.PNG);
+  background-image: url(../img/botik-petra/img-botik-4.jpg);
 
 }
 
 .botik__box-4 {
-  background-image: url(../img/botik-petra/img-botik-5.PNG);
+  background-image: url(../img/botik-petra/img-botik-5.jpg);
 
 }
 
 .botik__box-5 {
-  background-image: url(../img/botik-petra/img-botik-6.PNG);
+  background-image: url(../img/botik-petra/img-botik-6.jpg);
 
 }
 
 .botik__box-6 {
-  background-image: url(../img/botik-petra/img-botik-7.PNG);
+  background-image: url(../img/botik-petra/img-botik-7.jpg);
 
 }
 
 .botik__box-7 {
-  background-image: url(../img/botik-petra/img-botik-8.PNG);
+  background-image: url(../img/botik-petra/img-botik-8.jpg);
 
 }
 
 .botik__box-8 {
-  background-image: url(../img/botik-petra/img-botik-9.PNG);
+  background-image: url(../img/botik-petra/img-botik-9.jpg);
 
 }
 
