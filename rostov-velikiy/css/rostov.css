@@ -193,10 +193,10 @@ li {
 
 .history__box_top,
 .history__foto_sssr-top,
-.history__pereslavl_today-top,
+.history__rostov_today-top,
 .kreml__box_top,
-.nikitskiy-hram__box_top,
-.botik__box_top {
+.isidor-hram__box_top,
+.spso-yavlenskiy__box_top {
   max-width: 1780px;
   min-height: 600px;
   margin: 0 auto;
@@ -210,19 +210,19 @@ li {
 
 .history__box_top:hover,
 .history__foto_sssr-top:hover,
-.history__pereslavl_today-top:hover,
+.history__rostov_today-top:hover,
 .kreml__box_top:hover,
-.nikitskiy-hram__box_top:hover,
-.botik__box_top:hover {
+.isidor-hram__box_top:hover,
+.spso-yavlenskiy__box_top:hover {
   scale: 1.2;
 }
 
 .history__box_bottom,
 .history__foto_sssr-bottom,
-.history__pereslavl_today-bottom,
+.history__rostov_today-bottom,
 .kreml__box-bottom,
-.nikitskiy-hram__box-bottom,
-.botik__box-bottom {
+.isidor-hram__box-bottom,
+.spso-yavlenskiy__box-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -232,14 +232,14 @@ li {
 }
 
 .history__box_all,
-.history__pereslavl_today-all,
+.history__rostov_today-all,
 .history__foto_sssr-all,
 .kreml__box-all,
 .kreml__box_desc,
-.nikitskiy-hram__box-all,
-.nikitskiy-hram__box_desc,
-.botik__box-all,
-.botik__box_desc {
+.isidor-hram__box-all,
+.isidor-hram__box_desc,
+.spso-yavlenskiy__box-all,
+.spso-yavlenskiy__box_desc {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -250,11 +250,11 @@ li {
 }
 
 .history__box_all:hover,
-.history__pereslavl_today-all:hover,
+.history__rostov_today-all:hover,
 .history__foto_sssr-all:hover,
 .kreml__box_desc:hover,
-.nikitskiy-hram__box_desc:hover,
-.botik__box_desc:hover {
+.isidor-hram__box_desc:hover,
+.spso-yavlenskiy__box_desc:hover {
   scale: 1.2;
 }
 
@@ -289,7 +289,6 @@ li {
 
 .history__box_6 {
   background-image: url(../img/old-foto/img-old-7.PNG)
-
 }
 
 .history__box_7 {
@@ -301,6 +300,7 @@ li {
   background-image: url(../img/old-foto/img-old-9.PNG);
 
 }
+
 /* Эпоха СССР*/
 .history__foto_sssr-top {
   background-image: url(../img/rostov-1950/img-rostov-1950-1.PNG);
@@ -345,48 +345,49 @@ li {
   background-image: url(../img/rostov-1950/img-rostov-1950-9.PNG);
 
 }
+
 /*Сегодня*/
-.history__pereslavl_today-top {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-1.jpg);
+.history__rostov_today-top {
+  background-image: url(../img/rostov-today/img-rostov-today-1.PNG);
 }
 
-.history__pereslavl_today-1 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-2.jpg);
-
-}
-
-.history__pereslavl_today-2 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-3.jpg);
+.history__rostov_today-1 {
+  background-image: url(../img/rostov-today/img-rostov-today-2.PNG);
 
 }
 
-.history__pereslavl_today-3 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-4.jpg);
+.history__rostov_today-2 {
+  background-image: url(../img/rostov-today/img-rostov-today-3.PNG);
 
 }
 
-.history__pereslavl_today-4 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-5.jpg);
+.history__rostov_today-3 {
+  background-image: url(../img/rostov-today/img-rostov-today-4.PNG);
 
 }
 
-.history__pereslavl_today-5 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-6.jpg);
+.history__rostov_today-4 {
+  background-image: url(../img/rostov-today/img-rostov-today-5.PNG);
 
 }
 
-.history__pereslavl_today-6 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-7.jpg);
+.history__rostov_today-5 {
+  background-image: url(../img/rostov-today/img-rostov-today-6.PNG);
 
 }
 
-.history__pereslavl_today-7 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-8.jpg);
+.history__rostov_today-6 {
+  background-image: url(../img/rostov-today/img-rostov-today-7.PNG);
 
 }
 
-.history__pereslavl_today-8 {
-  background-image: url(../img/pereslavl-today/img-pereslavl-today-9.jpg);
+.history__rostov_today-7 {
+  background-image: url(../img/rostov-today/img-rostov-today-8.PNG);
+
+}
+
+.history__rostov_today-8 {
+  background-image: url(../img/rostov-today/img-rostov-today-9.PNG);
 
 }
 
@@ -398,7 +399,7 @@ li {
 
 /*kreml*/
 .kreml__box_top {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-1.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-1.PNG);
 
 }
 
@@ -407,135 +408,120 @@ li {
 }
 
 .kreml__box-1 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-2.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-2.PNG);
 
 }
 
 .kreml__box-2 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-3.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-3.PNG);
 }
 
 .kreml__box-3 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-4.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-4.PNG);
 }
 
 .kreml__box-4 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-5.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-5.PNG);
 }
 
 .kreml__box-5 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-6.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-6.PNG);
 }
 
 .kreml__box-6 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-7.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-7.PNG);
 }
 
 .kreml__box-7 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-8.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-8.PNG);
 }
 
 .kreml__box-8 {
-  background-image: url(../img/pereslavl-kreml/img-pereslavl-kreml-9.jpg);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-9.PNG);
 }
 
 .kreml__box_text,
-.skit__box_text {
+.isidor-hram__box_text,
+.spso-yavlenskiy__box_text {
   position: relative;
   font-size: 20px;
   z-index: 2;
 }
 
-/*nikitskiy-hram*/
-.nikitskiy-hram__box_top {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-1.jpg);
+/*isidor-hram*/
+.isidor-hram__box_top {
+  background-image: url(../img/isidor-hram/img-isidor-hram-1.PNG);
 }
 
-.nikitskiy-hram__box-desc {
+.isidor-hram__box-desc {
   display: block;
 }
 
-.nikitskiy-hram__box-1 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-2.jpg);
+.isidor-hram__box-1 {
+  background-image: url(../img/isidor-hram/img-isidor-hram-2.PNG);
 
 }
 
-.nikitskiy-hram__box-2 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-3.jpg)
+.isidor-hram__box-2 {
+  background-image: url(../img/isidor-hram/img-isidor-hram-3.PNG)
 }
 
-.nikitskiy-hram__box-3 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-4.jpg);
+.isidor-hram__box-3 {
+  background-image: url(../img/isidor-hram/img-isidor-hram-4.png);
 
 }
 
-.nikitskiy-hram__box-4 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-5.jpg)
+.isidor-hram__box-4 {
+  background-image: url(../img/isidor-hram/img-isidor-hram-5.PNG)
 }
 
-.nikitskiy-hram__box-5 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-6.jpg)
+/*spso-yavlenskiy*/
+
+.spso-yavlenskiy__box_top {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-1.jpg);
 }
 
-.nikitskiy-hram__box-6 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-7.jpg)
-}
-
-.nikitskiy-hram__box-7 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-8.jpg)
-}
-
-.nikitskiy-hram__box-8 {
-  background-image: url(../img/nikitskiy-hram/img-nikitskiy-hram-9.jpg)
-}
-
-/*botik*/
-
-.botik__box_top {
-  background-image: url(../img/botik-petra/img-botik-1.jpg);
-}
-
-.botik__box-desc {
+.spso-yavlenskiy__box-desc {
   display: block;
 }
 
-.botik__box-1 {
-  background-image: url(../img/botik-petra/img-botik-2.jpg);
+.spso-yavlenskiy__box-1 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-2.PNG);
 
 }
 
-.botik__box-2 {
-  background-image: url(../img/botik-petra/img-botik-3.jpg);
+.spso-yavlenskiy__box-2 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-3.PNG);
 
 }
 
-.botik__box-3 {
-  background-image: url(../img/botik-petra/img-botik-4.jpg);
+.spso-yavlenskiy__box-3 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-4.PNG);
 
 }
 
-.botik__box-4 {
-  background-image: url(../img/botik-petra/img-botik-5.jpg);
+.spso-yavlenskiy__box-4 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-5.PNG);
 
 }
 
-.botik__box-5 {
-  background-image: url(../img/botik-petra/img-botik-6.jpg);
+.spso-yavlenskiy__box-5 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-6.PNG);
 
 }
 
-.botik__box-6 {
-  background-image: url(../img/botik-petra/img-botik-7.jpg);
+.spso-yavlenskiy__box-6 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-7.PNG);
 
 }
 
-.botik__box-7 {
-  background-image: url(../img/botik-petra/img-botik-8.jpg);
+.spso-yavlenskiy__box-7 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-8.PNG);
 
 }
 
-.botik__box-8 {
-  background-image: url(../img/botik-petra/img-botik-9.jpg);
+.spso-yavlenskiy__box-8 {
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-9.PNG);
 
 }
 
@@ -567,29 +553,32 @@ li {
   display: flex;
   gap: 50px;
 }
+
 .footer__icon_email,
 .footer__icon_ok,
 .footer__icon_vk,
 .footer__icon_whatsapp {
   transition: .4s;
 }
+
 .footer__icon_email:hover,
 .footer__icon_ok:hover,
 .footer__icon_vk:hover,
 .footer__icon_whatsapp:hover {
   scale: 1.3;
-  
+
 }
+
 .footer__svg-one,
 .footer__svg-two,
 .footer__svg-three,
-.footer__svg-four{
+.footer__svg-four {
   transition: .4s;
 }
 
 .footer__svg-one:hover,
 .footer__svg-two:hover,
 .footer__svg-three:hover,
-.footer__svg-four:hover{
+.footer__svg-four:hover {
   fill: rgb(60, 117, 2);
 }
