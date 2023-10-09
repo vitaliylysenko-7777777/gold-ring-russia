@@ -196,9 +196,9 @@ li {
 .history__box_top,
 .history__foto_sssr-top,
 .history__moscow_today-top,
-.lavra__box_top,
-.skit__box_top,
-.kluch__box_top {
+.kreml__box_top,
+.red-square__box_top,
+.vdnh__box_top {
   max-width: 1780px;
   min-height: 600px;
   margin: 0 auto;
@@ -213,18 +213,18 @@ li {
 .history__box_top:hover,
 .history__foto_sssr-top:hover,
 .history__moscow_today-top:hover,
-.lavra__box_top:hover,
-.skit__box_top:hover,
-.kluch__box_top:hover {
+.kreml__box_top:hover,
+.red-square__box_top:hover,
+.vdnh__box_top:hover {
   scale: 1.2;
 }
 
 .history__box_bottom,
 .history__foto_sssr-bottom,
 .history__moscow_today-bottom,
-.lavra__box-bottom,
-.skit__box-bottom,
-.kluch__box-bottom {
+.kreml__box-bottom,
+.red-square__box-bottom,
+.vdnh__box-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -237,12 +237,12 @@ li {
 .history__box_all,
 .history__moscow_today-all,
 .history__foto_sssr-all,
-.lavra__box-all,
-.lavra__box_desc,
-.skit__box-all,
-.skit__box_desc,
-.kluch__box-all,
-.kluch__box_desc {
+.kreml__box-all,
+.kreml__box_desc,
+.red-square__box-all,
+.red-square__box_desc,
+.vdnh__box-all,
+.vdnh__box_desc {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -255,9 +255,9 @@ li {
 .history__box_all:hover,
 .history__moscow_today-all:hover,
 .history__foto_sssr-all:hover,
-.lavra__box_desc:hover,
-.skit__box_desc:hover,
-.kluch__box_desc:hover {
+.kreml__box_desc:hover,
+.red-square__box_desc:hover,
+.vdnh__box_desc:hover {
   scale: 1.2;
 }
 
@@ -399,146 +399,146 @@ li {
   margin-bottom: 100px;
 }
 
-/*lavra*/
-.lavra__box_top {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-1.jpg);
+/*kreml*/
+.kreml__box_top {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-1.PNG)
 
 }
 
-.lavra__box-desc {
+.kreml__box-desc {
   display: block;
 }
 
-.lavra__box-1 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-3.jpg);
+.kreml__box-1 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-2.PNG);
 
 }
 
-.lavra__box-2 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-4.jpg);
+.kreml__box-2 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-3.PNG);
 }
 
-.lavra__box-3 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-5.jpg);
+.kreml__box-3 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-4.PNG);
 }
 
-.lavra__box-4 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-6.jpg);
+.kreml__box-4 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-5.PNG);
 }
 
-.lavra__box-5 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-7.jpg);
+.kreml__box-5 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-6.PNG);
 }
 
-.lavra__box-6 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-8.jpg);
+.kreml__box-6 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-7.PNG);
 }
 
-.lavra__box-7 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-9.jpg);
+.kreml__box-7 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-8.PNG);
 }
 
-.lavra__box-8 {
-  background-image: url(../img/troice-sergieva-lavra/img-lavra-10.jpg);
+.kreml__box-8 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-9.PNG);
 }
 
-.lavra__box_text,
+.kreml__box_text,
 .skit__box_text {
   position: relative;
   font-size: 20px;
   z-index: 2;
 }
 
-/*skit*/
-.skit__box_top {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-1.jpg);
+/*red-square*/
+.red-square__box_top {
+  background-image: url(../img/red-square/img-red-square-1.PNG);
 }
 
-.skit__box-desc {
+.red-square__box-desc {
   display: block;
 }
 
-.skit__box-1 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-2.jpg);
+.red-square__box-1 {
+  background-image: url(../img/red-square/img-red-square-2.PNG);
 
 }
 
-.skit__box-2 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-3.jpg)
+.red-square__box-2 {
+  background-image: url(../img/red-square/img-red-square-3.PNG)
 }
 
-.skit__box-3 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-4.JPG);
+.red-square__box-3 {
+  background-image: url(../img/red-square/img-red-square-4.PNG);
 
 }
 
-.skit__box-4 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-5.jpg)
+.red-square__box-4 {
+  background-image: url(../img/red-square/img-red-square-5.PNG)
 }
 
-.skit__box-5 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-6.jpg)
+.red-square__box-5 {
+  background-image: url(../img/red-square/img-red-square-6.PNG)
 }
 
-.skit__box-6 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-7.jpg)
+.red-square__box-6 {
+  background-image: url(../img/red-square/img-red-square-7.PNG)
 }
 
-.skit__box-7 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-8.jpg)
+.red-square__box-7 {
+  background-image: url(../img/red-square/img-red-square-8.PNG)
 }
 
-.skit__box-8 {
-  background-image: url(../img/gefsimanskiy-skit/img-skit-9.jpg)
+.red-square__box-8 {
+  background-image: url(../img/red-square/img-red-square-9.PNG)
 }
 
-/*gremaychiy-kluch*/
+/*vdnh*/
 
-.kluch__box_top {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-1.jpg);
+.vdnh__box_top {
+  background-image: url(../img/vdnh/img-vdnh-1.PNG);
 }
 
-.kluch__box-desc {
+.vdnh__box-desc {
   display: block;
 }
 
-.kluch__box-1 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-2.jpg);
+.vdnh__box-1 {
+  background-image: url(../img/vdnh/img-vdnh-2.PNG);
 
 }
 
-.kluch__box-2 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-3.jpg);
+.vdnh__box-2 {
+  background-image: url(../img/vdnh/img-vdnh-3.PNG);
 
 }
 
-.kluch__box-3 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-4.jpg);
+.vdnh__box-3 {
+  background-image: url(../img/vdnh/img-vdnh-4.PNG);
 
 }
 
-.kluch__box-4 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-5.jpg);
+.vdnh__box-4 {
+  background-image: url(../img/vdnh/img-vdnh-5.PNG);
 
 }
 
-.kluch__box-5 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-6.jpg);
+.vdnh__box-5 {
+  background-image: url(../img/vdnh/img-vdnh-6.PNG);
 
 }
 
-.kluch__box-6 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-7.jpg);
+.vdnh__box-6 {
+  background-image: url(../img/vdnh/img-vdnh-7.PNG);
 
 }
 
-.kluch__box-7 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-8.jpg);
+.vdnh__box-7 {
+  background-image: url(../img/vdnh/img-vdnh-8.PNG);
 
 }
 
-.kluch__box-8 {
-  background-image: url(../img/gremyachiy-kluch/img-kluch-9.jpg);
+.vdnh__box-8 {
+  background-image: url(../img/vdnh/img-vdnh-9.PNG);
 
 }
 
