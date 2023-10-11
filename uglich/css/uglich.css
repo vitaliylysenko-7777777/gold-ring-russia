@@ -1,0 +1,598 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(252, 246, 246);
+}
+
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1800px;
+  min-height: 1000px;
+  margin: 0 auto;
+
+
+}
+
+.title-h1 {
+  font-size: 100px;
+  color: brown;
+  margin: 0;
+}
+
+.title__h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin: 70px 0;
+}
+
+.title__h3 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin: 70px 0;
+}
+
+/*header*/
+.header {
+  min-height: 600px;
+  background-image: url(../img/img-uglich-panorama.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50px;
+}
+
+.header__top {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+  gap: 400px;
+}
+
+.header-gerb {
+  max-width: 10%;
+
+}
+
+.header-gerb_img {
+  border-radius: 50%;
+}
+
+.header__nav {
+  padding-top: 12%;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.menu__item {
+  position: relative;
+}
+
+.menu__button {
+  position: relative;
+  background-color: rgb(231, 224, 224);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  padding-right: 30px;
+  color: brown;
+  font-size: 25px;
+  transition: background-color .2s, color .2;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu__button:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: brown;
+}
+
+.menu__button:active {
+  background-color: rgba(143, 138, 138, 0.9);
+  color: rgb(30, 185, 30);
+}
+
+.menu__button:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: solid tomato;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  right: 12px;
+  top: 20px;
+  transition: transform .2s;
+}
+
+.dropdown-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(231, 224, 224);
+  position: absolute;
+  min-width: 150px;
+  transform: translatey(-100px) scale(0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility .2s, opacity .2s, transform .2s;
+  z-index: 1;
+}
+
+.menu__item.menu__item_open .menu__button:after {
+  transform: rotate(-135deg);
+}
+
+.menu__item.menu__item_open .dropdown-menu {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  border-radius: 10px;
+}
+
+.dropdown-menu__link {
+  display: block;
+  padding: 15px 20px;
+  color: tomato;
+  font-size: 25px;
+  transition: background-color .2s, color .2s;
+}
+
+.dropdown-menu__link:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: brown;
+}
+
+.dropdown-menu__link:active {
+  background-color: rgba(143, 138, 138, 0.9);
+  color: rgb(30, 185, 30);
+}
+
+
+
+/*history*/
+.history__desc {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.history__text {
+  line-height: 52px;
+  font-size: 30px;
+}
+
+.history__box_top,
+.history__foto_sssr-top,
+.history__uglich_today-top,
+.kreml__box_top,
+.red-square__box_top,
+.vdnh__box_top {
+  max-width: 1780px;
+  min-height: 600px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  transition: .7s;
+  cursor: pointer;
+}
+
+.history__box_top:hover,
+.history__foto_sssr-top:hover,
+.history__uglich_today-top:hover,
+.kreml__box_top:hover,
+.red-square__box_top:hover,
+.vdnh__box_top:hover {
+  scale: 1.2;
+}
+
+.history__box_bottom,
+.history__foto_sssr-bottom,
+.history__uglich_today-bottom,
+.kreml__box-bottom,
+.red-square__box-bottom,
+.vdnh__box-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1780px;
+  min-height: 200px;
+
+}
+
+.history__box_all,
+.history__uglich_today-all,
+.history__foto_sssr-all,
+.kreml__box-all,
+.kreml__box_desc,
+.red-square__box-all,
+.red-square__box_desc,
+.vdnh__box-all,
+.vdnh__box_desc {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: .7s;
+  cursor: pointer;
+}
+
+.history__box_all:hover,
+.history__uglich_today-all:hover,
+.history__foto_sssr-all:hover,
+.kreml__box_desc:hover,
+.red-square__box_desc:hover,
+.vdnh__box_desc:hover {
+  scale: 1.2;
+}
+
+.history__box_top {
+  background-image: url(../img/old-foto/img-old-1.PNG);
+}
+
+.history__box_1 {
+  background-image: url(../img/old-foto/img-old-2.PNG);
+
+}
+
+.history__box_2 {
+  background-image: url(../img/old-foto/img-old-3.PNG)
+
+}
+
+.history__box_3 {
+  background-image: url(../img/old-foto/img-old-4.PNG);
+
+}
+
+.history__box_4 {
+  background-image: url(../img/old-foto/img-old-5.png);
+
+}
+
+.history__box_5 {
+  background-image: url(../img/old-foto/img-old-6.png);
+
+}
+
+.history__box_6 {
+  background-image: url(../img/old-foto/img-old-7.png);
+
+}
+
+.history__box_7 {
+  background-image: url(../img/old-foto/img-old-8.png);
+
+}
+
+.history__box_8 {
+  background-image: url(../img/old-foto/img-old-9.png);
+
+}
+
+.history__foto_sssr-top {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-1.PNG);
+}
+
+.history__foto_sssr-1 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-2.PNG);
+
+}
+
+.history__foto_sssr-2 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-3.PNG);
+
+}
+
+.history__foto_sssr-3 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-4.PNG);
+
+}
+
+.history__foto_sssr-4 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-5.PNG);
+
+}
+
+.history__foto_sssr-5 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-6.PNG);
+
+}
+
+.history__foto_sssr-6 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-7.PNG);
+
+}
+
+.history__foto_sssr-7 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-8.PNG);
+
+}
+
+.history__foto_sssr-8 {
+  background-image: url(../img/uglich-sssr/img-uglicg-sssr-9.PNG);
+
+}
+
+.history__uglich_today-top {
+  background-image: url(../img/uglich-today/img-uglich-today-1.PNG);
+}
+
+.history__uglich_today-1 {
+  background-image: url(../img/uglich-today/img-uglich-today-2.png);
+
+}
+
+.history__uglich_today-2 {
+  background-image: url(../img/uglich-today/img-uglich-today-3.png);
+
+}
+
+.history__uglich_today-3 {
+  background-image: url(../img/uglich-today/img-uglich-today-4.png);
+
+}
+
+.history__uglich_today-4 {
+  background-image: url(../img/uglich-today/img-uglich-today-5.png);
+
+}
+
+.history__uglich_today-5 {
+  background-image: url(../img/uglich-today/img-uglich-today-6.png);
+
+}
+
+.history__uglich_today-6 {
+  background-image: url(../img/uglich-today/img-uglich-today-7.png);
+
+}
+
+.history__uglich_today-7 {
+  background-image: url(../img/uglich-today/img-uglich-today-8.png);
+
+}
+
+.history__uglich_today-8 {
+  background-image: url(../img/uglich-today/img-uglich-today-9.png);
+
+}
+
+/*attractions*/
+
+.attractions {
+  margin-bottom: 100px;
+}
+
+/*kreml*/
+.kreml__box_top {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-1.PNG)
+
+}
+
+.kreml__box-desc {
+  display: block;
+}
+
+.kreml__box-1 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-2.PNG);
+
+}
+
+.kreml__box-2 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-3.PNG);
+}
+
+.kreml__box-3 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-4.PNG);
+}
+
+.kreml__box-4 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-5.PNG);
+}
+
+.kreml__box-5 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-6.PNG);
+}
+
+.kreml__box-6 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-7.PNG);
+}
+
+.kreml__box-7 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-8.PNG);
+}
+
+.kreml__box-8 {
+  background-image: url(../img/moscow-kreml/img-moscow-kreml-9.PNG);
+}
+
+.kreml__box_text,
+.skit__box_text {
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/*red-square*/
+.red-square__box_top {
+  background-image: url(../img/red-square/img-red-square-1.PNG);
+}
+
+.red-square__box-desc {
+  display: block;
+}
+
+.red-square__box-1 {
+  background-image: url(../img/red-square/img-red-square-2.PNG);
+
+}
+
+.red-square__box-2 {
+  background-image: url(../img/red-square/img-red-square-3.PNG)
+}
+
+.red-square__box-3 {
+  background-image: url(../img/red-square/img-red-square-4.PNG);
+
+}
+
+.red-square__box-4 {
+  background-image: url(../img/red-square/img-red-square-5.PNG)
+}
+
+.red-square__box-5 {
+  background-image: url(../img/red-square/img-red-square-6.PNG)
+}
+
+.red-square__box-6 {
+  background-image: url(../img/red-square/img-red-square-7.PNG)
+}
+
+.red-square__box-7 {
+  background-image: url(../img/red-square/img-red-square-8.PNG)
+}
+
+.red-square__box-8 {
+  background-image: url(../img/red-square/img-red-square-9.PNG)
+}
+
+/*vdnh*/
+
+.vdnh__box_top {
+  background-image: url(../img/vdnh/img-vdnh-1.PNG);
+}
+
+.vdnh__box-desc {
+  display: block;
+}
+
+.vdnh__box-1 {
+  background-image: url(../img/vdnh/img-vdnh-2.PNG);
+
+}
+
+.vdnh__box-2 {
+  background-image: url(../img/vdnh/img-vdnh-3.PNG);
+
+}
+
+.vdnh__box-3 {
+  background-image: url(../img/vdnh/img-vdnh-4.PNG);
+
+}
+
+.vdnh__box-4 {
+  background-image: url(../img/vdnh/img-vdnh-5.PNG);
+
+}
+
+.vdnh__box-5 {
+  background-image: url(../img/vdnh/img-vdnh-6.PNG);
+
+}
+
+.vdnh__box-6 {
+  background-image: url(../img/vdnh/img-vdnh-7.PNG);
+
+}
+
+.vdnh__box-7 {
+  background-image: url(../img/vdnh/img-vdnh-8.PNG);
+
+}
+
+.vdnh__box-8 {
+  background-image: url(../img/vdnh/img-vdnh-9.PNG);
+
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1780px;
+  min-height: 150px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.footer__logo,
+.footer__desc,
+.footer__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__logo_img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.footer__icon_box {
+  display: flex;
+  gap: 50px;
+}
+.footer__icon_email,
+.footer__icon_ok,
+.footer__icon_vk,
+.footer__icon_whatsapp {
+  transition: .4s;
+}
+.footer__icon_email:hover,
+.footer__icon_ok:hover,
+.footer__icon_vk:hover,
+.footer__icon_whatsapp:hover {
+  scale: 1.3;
+  
+}
+.footer__svg-one,
+.footer__svg-two,
+.footer__svg-three,
+.footer__svg-four{
+  transition: .4s;
+}
+
+.footer__svg-one:hover,
+.footer__svg-two:hover,
+.footer__svg-three:hover,
+.footer__svg-four:hover{
+  fill: rgb(60, 117, 2);
+}
