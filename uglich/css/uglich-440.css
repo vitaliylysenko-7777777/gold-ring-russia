@@ -70,10 +70,10 @@
 
   .history__box_top,
   .history__foto_sssr-top,
-  .history__moscow_today-top,
+  .history__uglich_today-top,
   .kreml__box_top,
-  .red-square__box_top,
-  .vdnh__box_top {
+  .uglich-ges__box_top,
+  .voskresenskiy-monastir__box_top {
     min-height: 200px;
   }
 

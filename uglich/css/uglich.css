@@ -197,8 +197,8 @@ li {
 .history__foto_sssr-top,
 .history__uglich_today-top,
 .kreml__box_top,
-.red-square__box_top,
-.vdnh__box_top {
+.uglich-ges__box_top,
+.voskresenskiy-monastir__box_top {
   max-width: 1780px;
   min-height: 600px;
   margin: 0 auto;
@@ -214,8 +214,8 @@ li {
 .history__foto_sssr-top:hover,
 .history__uglich_today-top:hover,
 .kreml__box_top:hover,
-.red-square__box_top:hover,
-.vdnh__box_top:hover {
+.uglich-ges__box_top:hover,
+.voskresenskiy-monastir__box_top:hover {
   scale: 1.2;
 }
 
@@ -223,8 +223,8 @@ li {
 .history__foto_sssr-bottom,
 .history__uglich_today-bottom,
 .kreml__box-bottom,
-.red-square__box-bottom,
-.vdnh__box-bottom {
+.uglich-ges__box-bottom,
+.voskresenskiy-monastir__box-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -239,10 +239,10 @@ li {
 .history__foto_sssr-all,
 .kreml__box-all,
 .kreml__box_desc,
-.red-square__box-all,
-.red-square__box_desc,
-.vdnh__box-all,
-.vdnh__box_desc {
+.uglich-ges__box-all,
+.uglich-ges__box_desc,
+.voskresenskiy-monastir__box-all,
+.voskresenskiy-monastir__box_desc {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -256,11 +256,11 @@ li {
 .history__uglich_today-all:hover,
 .history__foto_sssr-all:hover,
 .kreml__box_desc:hover,
-.red-square__box_desc:hover,
-.vdnh__box_desc:hover {
+.uglich-ges__box_desc:hover,
+.voskresenskiy-monastir__box_desc:hover {
   scale: 1.2;
 }
-
+/*old-foto*/
 .history__box_top {
   background-image: url(../img/old-foto/img-old-1.PNG);
 }
@@ -304,7 +304,7 @@ li {
   background-image: url(../img/old-foto/img-old-9.png);
 
 }
-
+/*uglich-sssr*/
 .history__foto_sssr-top {
   background-image: url(../img/uglich-sssr/img-uglicg-sssr-1.PNG);
 }
@@ -348,7 +348,7 @@ li {
   background-image: url(../img/uglich-sssr/img-uglicg-sssr-9.PNG);
 
 }
-
+/*uglich-today*/
 .history__uglich_today-top {
   background-image: url(../img/uglich-today/img-uglich-today-1.PNG);
 }
@@ -401,7 +401,7 @@ li {
 
 /*kreml*/
 .kreml__box_top {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-1.PNG)
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-1.PNG)
 
 }
 
@@ -410,36 +410,36 @@ li {
 }
 
 .kreml__box-1 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-2.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-2.PNG);
 
 }
 
 .kreml__box-2 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-3.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-3.PNG);
 }
 
 .kreml__box-3 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-4.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-4.PNG);
 }
 
 .kreml__box-4 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-5.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-5.PNG);
 }
 
 .kreml__box-5 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-6.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-6.PNG);
 }
 
 .kreml__box-6 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-7.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-7.PNG);
 }
 
 .kreml__box-7 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-8.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-8.PNG);
 }
 
 .kreml__box-8 {
-  background-image: url(../img/moscow-kreml/img-moscow-kreml-9.PNG);
+  background-image: url(../img/uglich-kreml/img-uglich-kreml-9.PNG);
 }
 
 .kreml__box_text,
@@ -449,96 +449,96 @@ li {
   z-index: 2;
 }
 
-/*red-square*/
-.red-square__box_top {
-  background-image: url(../img/red-square/img-red-square-1.PNG);
+/*uglich-ges*/
+.uglich-ges__box_top {
+  background-image: url(../img/uglich-ges/img-uglich-ges-1.PNG);
 }
 
-.red-square__box-desc {
+.uglich-ges__box-desc {
   display: block;
 }
 
-.red-square__box-1 {
-  background-image: url(../img/red-square/img-red-square-2.PNG);
+.uglich-ges__box-1 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-2.PNG);
 
 }
 
-.red-square__box-2 {
-  background-image: url(../img/red-square/img-red-square-3.PNG)
+.uglich-ges__box-2 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-3.PNG)
 }
 
-.red-square__box-3 {
-  background-image: url(../img/red-square/img-red-square-4.PNG);
+.uglich-ges__box-3 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-4.PNG);
 
 }
 
-.red-square__box-4 {
-  background-image: url(../img/red-square/img-red-square-5.PNG)
+.uglich-ges__box-4 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-5.PNG)
 }
 
-.red-square__box-5 {
-  background-image: url(../img/red-square/img-red-square-6.PNG)
+.uglich-ges__box-5 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-6.PNG)
 }
 
-.red-square__box-6 {
-  background-image: url(../img/red-square/img-red-square-7.PNG)
+.uglich-ges__box-6 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-7.PNG)
 }
 
-.red-square__box-7 {
-  background-image: url(../img/red-square/img-red-square-8.PNG)
+.uglich-ges__box-7 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-8.PNG)
 }
 
-.red-square__box-8 {
-  background-image: url(../img/red-square/img-red-square-9.PNG)
+.uglich-ges__box-8 {
+  background-image: url(../img/uglich-ges/img-uglich-ges-9.PNG)
 }
 
-/*vdnh*/
+/*voskresenskiy-monastir*/
 
-.vdnh__box_top {
-  background-image: url(../img/vdnh/img-vdnh-1.PNG);
+.voskresenskiy-monastir__box_top {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-1.PNG);
 }
 
-.vdnh__box-desc {
+.voskresenskiy-monastir__box-desc {
   display: block;
 }
 
-.vdnh__box-1 {
-  background-image: url(../img/vdnh/img-vdnh-2.PNG);
+.voskresenskiy-monastir__box-1 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-2.PNG);
 
 }
 
-.vdnh__box-2 {
-  background-image: url(../img/vdnh/img-vdnh-3.PNG);
+.voskresenskiy-monastir__box-2 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-3.PNG);
 
 }
 
-.vdnh__box-3 {
-  background-image: url(../img/vdnh/img-vdnh-4.PNG);
+.voskresenskiy-monastir__box-3 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-4.PNG);
 
 }
 
-.vdnh__box-4 {
-  background-image: url(../img/vdnh/img-vdnh-5.PNG);
+.voskresenskiy-monastir__box-4 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-5.PNG);
 
 }
 
-.vdnh__box-5 {
-  background-image: url(../img/vdnh/img-vdnh-6.PNG);
+.voskresenskiy-monastir__box-5 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-6.PNG);
 
 }
 
-.vdnh__box-6 {
-  background-image: url(../img/vdnh/img-vdnh-7.PNG);
+.voskresenskiy-monastir__box-6 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-7.PNG);
 
 }
 
-.vdnh__box-7 {
-  background-image: url(../img/vdnh/img-vdnh-8.PNG);
+.voskresenskiy-monastir__box-7 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-8.PNG);
 
 }
 
-.vdnh__box-8 {
-  background-image: url(../img/vdnh/img-vdnh-9.PNG);
+.voskresenskiy-monastir__box-8 {
+  background-image: url(../img/voskresenskiy-monastir/img-voskresenskiy-monastir-9.PNG);
 
 }
 
