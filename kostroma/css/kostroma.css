@@ -109,7 +109,7 @@ li {
   padding-right: 30px;
   color: tomato;
   font-size: 25px;
-  transition: background-color .2s, color .2;
+  transition: background-color .2s, color .2s;
   cursor: pointer;
   z-index: 2;
 }
@@ -200,7 +200,7 @@ li {
 .history__kostroma_today-top,
 .kreml__box_top,
 .fire-tower__box_top,
-.vdnh__box_top {
+.red-rows__box_top {
   max-width: 1780px;
   min-height: 600px;
   margin: 0 auto;
@@ -218,7 +218,7 @@ li {
 .history__kostroma_today-top:hover,
 .kreml__box_top:hover,
 .fire-tower__box_top:hover,
-.vdnh__box_top:hover {
+.red-rows__box_top:hover {
   scale: 1.2;
 }
 
@@ -227,7 +227,7 @@ li {
 .history__kostroma_today-bottom,
 .convent__box-bottom,
 .fire-tower__box-bottom,
-.vdnh__box-bottom {
+.red-rows__box-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -244,8 +244,8 @@ li {
 .convent__box_desc,
 .fire-tower__box-all,
 .fire-tower__box_desc,
-.vdnh__box-all,
-.vdnh__box_desc {
+.red-rows__box-all,
+.red-rows__box_desc {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -260,7 +260,7 @@ li {
 .history__foto_sssr-all:hover,
 .convent__box_desc:hover,
 .fire-tower__box_desc:hover,
-.vdnh__box_desc:hover {
+.red-rows__box_desc:hover {
   scale: 1.2;
 }
 
@@ -495,53 +495,53 @@ li {
   background-image: url(../img/fire-tower/img-fire-tower-9.PNG)
 }
 
-/*vdnh*/
+/*red-rows*/
 
-.vdnh__box_top {
-  background-image: url(../img/vdnh/img-vdnh-1.PNG);
+.red-rows__box_top {
+  background-image: url(../img/red-rows/img-red-rows-1.PNG);
 }
 
-.vdnh__box-desc {
+.red-rows__box-desc {
   display: block;
 }
 
-.vdnh__box-1 {
-  background-image: url(../img/vdnh/img-vdnh-2.PNG);
+.red-rows__box-1 {
+  background-image: url(../img/red-rows/img-red-rows-2.PNG);
 
 }
 
-.vdnh__box-2 {
-  background-image: url(../img/vdnh/img-vdnh-3.PNG);
+.red-rows__box-2 {
+  background-image: url(../img/red-rows/img-red-rows-3.PNG);
 
 }
 
-.vdnh__box-3 {
-  background-image: url(../img/vdnh/img-vdnh-4.PNG);
+.red-rows__box-3 {
+  background-image: url(../img/red-rows/img-red-rows-4.PNG);
 
 }
 
-.vdnh__box-4 {
-  background-image: url(../img/vdnh/img-vdnh-5.PNG);
+.red-rows__box-4 {
+  background-image: url(../img/red-rows/img-red-rows-5.PNG);
 
 }
 
-.vdnh__box-5 {
-  background-image: url(../img/vdnh/img-vdnh-6.PNG);
+.red-rows__box-5 {
+  background-image: url(../img/red-rows/img-red-rows-6.PNG);
 
 }
 
-.vdnh__box-6 {
-  background-image: url(../img/vdnh/img-vdnh-7.PNG);
+.red-rows__box-6 {
+  background-image: url(../img/red-rows/img-red-rows-7.PNG);
 
 }
 
-.vdnh__box-7 {
-  background-image: url(../img/vdnh/img-vdnh-8.PNG);
+.red-rows__box-7 {
+  background-image: url(../img/red-rows/img-red-rows-8.PNG);
 
 }
 
-.vdnh__box-8 {
-  background-image: url(../img/vdnh/img-vdnh-9.PNG);
+.red-rows__box-8 {
+  background-image: url(../img/red-rows/img-red-rows-9.PNG);
 
 }
 
