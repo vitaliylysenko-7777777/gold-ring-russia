@@ -1,0 +1,93 @@
+@media (max-width: 1476px) {
+	.menu__button {
+		height: 100%;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1124px) {
+	:root {
+		--gap: 40px;
+	}
+
+	.header__top {
+		gap: 0;
+		justify-content: space-between;
+	}
+
+	.dropdown-menu__link {
+		font-size: 16px;
+	}
+
+	.history__text {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 992px) {
+	.header-gerb {
+		max-width: 15%;
+	}
+
+	.menu__button:after {
+		top: 33px;
+	}
+
+	.footer {
+		padding: 0 15px;
+	}
+
+	.footer__desc_text {
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		min-height: 460px;
+	}
+
+	.title-h1 {
+		font-size: 60px;
+	}
+
+	.menu {
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+
+	.menu__item {
+		flex: 49%;
+	}
+
+	.menu__button {
+		width: 100%;
+	}
+
+	.menu__button:after {
+		top: 17px;
+	}
+
+	.title__h2 {
+		margin: 30px 0;
+		font-size: 35px;
+	}
+
+	.history__text {
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.history__box_bottom,
+	.history__foto_sssr-bottom,
+	.history__kostroma_today-bottom,
+	.convent__box-bottom,
+	.fire-tower__box-bottom,
+	.red-rows__box-bottom {
+		--offsets: 1;
+	}
+
+	.footer {
+		min-height: 120px;
+	}
+}

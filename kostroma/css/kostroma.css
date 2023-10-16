@@ -28,14 +28,16 @@ li {
   list-style: none;
 }
 
+:root {
+	--gap: 60px;
+}
+
 .container {
   position: relative;
 	padding: 0 15px;
   max-width: 1830px;
   min-height: 1000px;
   margin: 0 auto;
-
-
 }
 
 .title-h1 {
@@ -231,10 +233,10 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 60px;
+  gap: var(--gap);
   max-width: 1780px;
   min-height: 200px;
-
+	--offsets: 3;
 }
 
 .history__box_all,
@@ -246,13 +248,19 @@ li {
 .fire-tower__box_desc,
 .red-rows__box-all,
 .red-rows__box_desc {
-  width: 400px;
   height: 200px;
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   transition: .7s;
   cursor: pointer;
+}
+
+.history__kostroma_today-link,
+.kreml__box_desc,
+.convent__box_desc,
+.red-rows__box_desc {
+	width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
 .history__box_all:hover,
