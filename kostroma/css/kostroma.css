@@ -46,6 +46,14 @@ li {
   margin: 0;
 }
 
+.burger {
+	display: none;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
 .title__h2 {
   text-align: center;
   font-size: 40px;
@@ -134,10 +142,9 @@ li {
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+	top: 45%;
   right: 12px;
-  top: 20px;
+	transform: rotate(45deg) translateY(-50%);
   transition: transform .2s;
 }
 
@@ -556,6 +563,7 @@ li {
 /*footer*/
 
 .footer {
+	padding: 15px;
   display: flex;
   justify-content: space-around;
   max-width: 1780px;
@@ -570,6 +578,10 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.footer__logo {
+	flex-shrink: 0;
 }
 
 .footer__logo_img {
