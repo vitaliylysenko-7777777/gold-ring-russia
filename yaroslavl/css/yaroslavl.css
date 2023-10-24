@@ -197,7 +197,7 @@ li {
 .history__foto_sssr-top,
 .history__yaroslavl_today-top,
 .spaso-preobrazenskiy__box_top,
-.red-square__box_top,
+.strelka-park__box_top,
 .vdnh__box_top {
   max-width: 1780px;
   min-height: 600px;
@@ -214,7 +214,7 @@ li {
 .history__foto_sssr-top:hover,
 .history__yaroslavl_today-top:hover,
 .spaso-preobrazenskiy__box_top:hover,
-.red-square__box_top:hover,
+.strelka-park__box_top:hover,
 .vdnh__box_top:hover {
   scale: 1.2;
 }
@@ -223,7 +223,7 @@ li {
 .history__foto_sssr-bottom,
 .history__yaroslavl_today-bottom,
 .spaso-preobrazenskiy__box-bottom,
-.red-square__box-bottom,
+.strelka-park__box-bottom,
 .vdnh__box-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -239,8 +239,8 @@ li {
 .history__foto_sssr-all,
 .spaso-preobrazenskiy__box-all,
 .spaso-preobrazenskiy__box_desc,
-.red-square__box-all,
-.red-square__box_desc,
+.strelka-park__box-all,
+.strelka-park__box_desc,
 .vdnh__box-all,
 .vdnh__box_desc {
   width: 400px;
@@ -256,7 +256,7 @@ li {
 .history__yaroslavl_today-all:hover,
 .history__foto_sssr-all:hover,
 .spaso-preobrazenskiy__box_desc:hover,
-.red-square__box_desc:hover,
+.strelka-park__box_desc:hover,
 .vdnh__box_desc:hover {
   scale: 1.2;
 }
@@ -410,36 +410,36 @@ li {
 }
 
 .spaso-preobrazenskiy__box-1 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-2.PNG);
 
 }
 
 .spaso-preobrazenskiy__box-2 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-3.PNG);
 }
 
 .spaso-preobrazenskiy__box-3 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-4.PNG);
 }
 
 .spaso-preobrazenskiy__box-4 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-5.PNG);
 }
 
 .spaso-preobrazenskiy__box-5 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-6.PNG);
 }
 
 .spaso-preobrazenskiy__box-6 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-7.PNG);
 }
 
 .spaso-preobrazenskiy__box-7 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-8.PNG);
 }
 
 .spaso-preobrazenskiy__box-8 {
-  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-1.PNG);
+  background-image: url(../img/spaso-preobrazenskiy-hram/img-spaso-preobrazenskiy-9.PNG);
 }
 
 .spaso-preobrazenskiy__box_text,
@@ -449,47 +449,47 @@ li {
   z-index: 2;
 }
 
-/*red-square*/
-.red-square__box_top {
-  background-image: url(../img/red-square/img-red-square-1.PNG);
+/*strelka-park*/
+.strelka-park__box_top {
+  background-image: url(../img/strelka-park/img-strelka-park-1.PNG);
 }
 
-.red-square__box-desc {
+.strelka-park__box-desc {
   display: block;
 }
 
-.red-square__box-1 {
-  background-image: url(../img/red-square/img-red-square-2.PNG);
+.strelka-park__box-1 {
+  background-image: url(../img/strelka-park/img-strelka-park-2.PNG);
 
 }
 
-.red-square__box-2 {
-  background-image: url(../img/red-square/img-red-square-3.PNG)
+.strelka-park__box-2 {
+  background-image: url(../img/strelka-park/img-strelka-park-3.PNG)
 }
 
-.red-square__box-3 {
-  background-image: url(../img/red-square/img-red-square-4.PNG);
+.strelka-park__box-3 {
+  background-image: url(../img/strelka-park/img-strelka-park-4.PNG);
 
 }
 
-.red-square__box-4 {
-  background-image: url(../img/red-square/img-red-square-5.PNG)
+.strelka-park__box-4 {
+  background-image: url(../img/strelka-park/img-strelka-park-5.JPG)
 }
 
-.red-square__box-5 {
-  background-image: url(../img/red-square/img-red-square-6.PNG)
+.strelka-park__box-5 {
+  background-image: url(../img/strelka-park/img-strelka-park-6.PNG)
 }
 
-.red-square__box-6 {
-  background-image: url(../img/red-square/img-red-square-7.PNG)
+.strelka-park__box-6 {
+  background-image: url(../img/strelka-park/img-strelka-park-7.PNG)
 }
 
-.red-square__box-7 {
-  background-image: url(../img/red-square/img-red-square-8.PNG)
+.strelka-park__box-7 {
+  background-image: url(../img/strelka-park/img-strelka-park-8.PNG)
 }
 
-.red-square__box-8 {
-  background-image: url(../img/red-square/img-red-square-9.PNG)
+.strelka-park__box-8 {
+  background-image: url(../img/strelka-park/img-strelka-park-9.PNG)
 }
 
 /*vdnh*/
