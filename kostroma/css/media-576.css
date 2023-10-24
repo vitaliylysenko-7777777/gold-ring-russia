@@ -1,0 +1,121 @@
+@media (max-width: 576px) {
+	:root {
+		--gap: 25px;
+	}
+
+	.header-gerb {
+		max-width: 12%;
+	}
+
+	.header {
+		padding: 10px 15px;
+		min-height: 240px;
+		border-radius: 20px;
+		background-position: center;
+		background-size: 230%;
+	}
+
+	.title-h1 {
+		font-size: 45px;
+	}
+
+	.title__h2 {
+		margin: 20px 0;
+		font-size: 25px;
+	}
+
+	.title__h3 {
+		margin: 40px 0;
+		font-size: 30px;
+	}
+
+	.kreml__box_text,
+	.skit__box_text {
+		font-size: 14px;
+	}
+
+	.history__text {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.history__box_top,
+	.history__foto_sssr-top,
+	.history__kostroma_today-top,
+	.kreml__box_top,
+	.fire-tower__box_top,
+	.red-rows__box_top {
+		margin-bottom: 40px;
+		min-height: 300px;
+	}
+
+	.history__box_all,
+	.history__kostroma_today-all,
+	.history__foto_sssr-all,
+	.kreml__box-all,
+	.convent__box_desc,
+	.fire-tower__box-all,
+	.fire-tower__box_desc,
+	.red-rows__box-all,
+	.red-rows__box_desc {
+		height: 160px;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.burger {
+		position: relative;
+		display: block;
+		border-radius: 3px;
+		border: 2px solid currentColor;
+		width: 40px;
+		height: 40px;
+		color: #1581e5;
+	}
+
+	.burger__line {
+		position: absolute;
+		left: 50%;
+		width: 20px;
+		height: 2px;
+		border-radius: inherit;
+		background-color: currentColor;
+		transform: translateX(-50%);
+	}
+
+	.burger__line:nth-child(1) {
+		top: 10px;
+	}
+
+	.burger__line:nth-child(2) {
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.burger__line:nth-last-child(1) {
+		bottom: 11px;
+	}
+
+	.attractions {
+		margin-bottom: 70px;
+	}
+
+	.red-rows__box_text {
+		font-size: 14px;
+	}
+
+	.footer {
+		min-height: 90px;
+	}
+
+	.footer__svg {
+		height: 25px;
+	}
+
+	.footer__icon_box {
+		gap: 0;
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,27 @@
+@media (max-width: 1124px) {
+	:root {
+		--gap: 40px;
+	}
+
+	.header-gerb {
+		max-width: 15%;
+	}
+
+	.header__top {
+		gap: 0;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.dropdown-menu__link {
+		font-size: 16px;
+	}
+
+	.history__text {
+		font-size: 22px;
+	}
+
+	.footer__desc_text {
+		padding-left: 15px;
+	}
+}

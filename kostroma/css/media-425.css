@@ -1,0 +1,71 @@
+@media (max-width: 425px) {
+	.header {
+		min-height: 210px;
+	}
+
+	.burger {
+		width: 30px;
+		height: 30px;
+	}
+
+	.burger__line:nth-child(1) {
+		top: 7px;
+	}
+
+	.burger__line:nth-last-child(1) {
+		bottom: 7px;
+	}
+
+	.title-h1 {
+		font-size: 35px;
+	}
+
+	.title__h2 {
+		font-size: 20px;
+	}
+
+	.title__h3 {
+		font-size: 20px;
+	}
+
+	.history__text {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.red-rows__box_text {
+		font-size: 12px;
+	}
+
+	.history__box_bottom,
+	.history__foto_sssr-bottom,
+	.history__kostroma_today-bottom,
+	.convent__box-bottom,
+	.fire-tower__box-bottom,
+	.red-rows__box-bottom {
+		--offsets: 0;
+	}
+
+	.history__box_top,
+	.history__foto_sssr-top,
+	.history__kostroma_today-top,
+	.kreml__box_top,
+	.fire-tower__box_top,
+	.red-rows__box_top {
+		min-height: 250px;
+	}
+
+	.footer {
+		padding: 7px;
+		flex-wrap: wrap;
+	}
+
+	.footer__desc_text {
+		font-size: 10px;
+		text-align: center;
+	}
+
+	.footer__logo_img {
+		width: 50px;
+	}
+}

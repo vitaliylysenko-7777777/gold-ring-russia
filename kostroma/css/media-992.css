@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+	.menu {
+		gap: 30px;
+	}
+
+	.menu__button {
+		padding: 10px;
+		padding-right: 30px;
+	}
+
+	.history__box_bottom,
+	.history__foto_sssr-bottom,
+	.history__kostroma_today-bottom,
+	.convent__box-bottom,
+	.fire-tower__box-bottom,
+	.red-rows__box-bottom {
+		justify-content: unset;
+		--offsets: 2;
+	}
+
+	.kreml__box_text,
+	.skit__box_text {
+		font-size: 16px;
+	}
+
+	.footer {
+		padding: 0 15px;
+	}
+}

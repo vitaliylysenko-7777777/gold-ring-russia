@@ -1,0 +1,46 @@
+@media (max-width: 769px) {
+	.header {
+		padding: 20px 45px;
+		min-height: 460px;
+	}
+
+	.title-h1 {
+		font-size: 60px;
+	}
+
+	.menu {
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+
+	.menu__item {
+		width: calc((100% - (10px * 1)) / 2);
+	}
+
+	.menu__button {
+		width: 100%;
+	}
+
+	.title__h2 {
+		margin: 30px 0;
+		font-size: 35px;
+	}
+
+	.history__text {
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.history__box_bottom,
+	.history__foto_sssr-bottom,
+	.history__kostroma_today-bottom,
+	.convent__box-bottom,
+	.fire-tower__box-bottom,
+	.red-rows__box-bottom {
+		--offsets: 1;
+	}
+
+	.footer {
+		min-height: 120px;
+	}
+}
