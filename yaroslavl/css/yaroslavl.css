@@ -197,8 +197,7 @@ li {
 .history__foto_sssr-top,
 .history__yaroslavl_today-top,
 .spaso-preobrazenskiy__box_top,
-.strelka-park__box_top,
-.vdnh__box_top {
+.strelka-park__box_top {
   max-width: 1780px;
   min-height: 600px;
   margin: 0 auto;
@@ -214,8 +213,7 @@ li {
 .history__foto_sssr-top:hover,
 .history__yaroslavl_today-top:hover,
 .spaso-preobrazenskiy__box_top:hover,
-.strelka-park__box_top:hover,
-.vdnh__box_top:hover {
+.strelka-park__box_top:hover {
   scale: 1.2;
 }
 
@@ -223,8 +221,7 @@ li {
 .history__foto_sssr-bottom,
 .history__yaroslavl_today-bottom,
 .spaso-preobrazenskiy__box-bottom,
-.strelka-park__box-bottom,
-.vdnh__box-bottom {
+.strelka-park__box-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -240,9 +237,7 @@ li {
 .spaso-preobrazenskiy__box-all,
 .spaso-preobrazenskiy__box_desc,
 .strelka-park__box-all,
-.strelka-park__box_desc,
-.vdnh__box-all,
-.vdnh__box_desc {
+.strelka-park__box_desc {
   width: 400px;
   height: 200px;
   border-radius: 10px;
@@ -256,8 +251,7 @@ li {
 .history__yaroslavl_today-all:hover,
 .history__foto_sssr-all:hover,
 .spaso-preobrazenskiy__box_desc:hover,
-.strelka-park__box_desc:hover,
-.vdnh__box_desc:hover {
+.strelka-park__box_desc:hover {
   scale: 1.2;
 }
 
@@ -492,55 +486,6 @@ li {
   background-image: url(../img/strelka-park/img-strelka-park-9.PNG)
 }
 
-/*vdnh*/
-
-.vdnh__box_top {
-  background-image: url(../img/vdnh/img-vdnh-1.PNG);
-}
-
-.vdnh__box-desc {
-  display: block;
-}
-
-.vdnh__box-1 {
-  background-image: url(../img/vdnh/img-vdnh-2.PNG);
-
-}
-
-.vdnh__box-2 {
-  background-image: url(../img/vdnh/img-vdnh-3.PNG);
-
-}
-
-.vdnh__box-3 {
-  background-image: url(../img/vdnh/img-vdnh-4.PNG);
-
-}
-
-.vdnh__box-4 {
-  background-image: url(../img/vdnh/img-vdnh-5.PNG);
-
-}
-
-.vdnh__box-5 {
-  background-image: url(../img/vdnh/img-vdnh-6.PNG);
-
-}
-
-.vdnh__box-6 {
-  background-image: url(../img/vdnh/img-vdnh-7.PNG);
-
-}
-
-.vdnh__box-7 {
-  background-image: url(../img/vdnh/img-vdnh-8.PNG);
-
-}
-
-.vdnh__box-8 {
-  background-image: url(../img/vdnh/img-vdnh-9.PNG);
-
-}
 
 /*footer*/
 
