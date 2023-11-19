@@ -1,0 +1,598 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(252, 246, 246);
+}
+
+
+*,
+* ::before,
+* ::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1800px;
+  min-height: 1000px;
+  margin: 0 auto;
+
+
+}
+
+.title-h1 {
+  font-size: 100px;
+  color: rgb(235, 133, 133);
+  margin: 0;
+}
+
+.title__h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin: 70px 0;
+}
+
+.title__h3 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  margin: 70px 0;
+}
+
+/*header*/
+.header {
+  min-height: 600px;
+  background-image: url(../img/img-suzdal-panorama.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50px;
+}
+
+.header__top {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+  gap: 400px;
+}
+
+.header-gerb {
+  max-width: 10%;
+
+}
+
+.header-gerb_img {
+  border-radius: 10%;
+}
+
+.header__nav {
+  padding-top: 12%;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.menu__item {
+  position: relative;
+}
+
+.menu__button {
+  position: relative;
+  background-color: rgb(231, 224, 224);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  padding-right: 30px;
+  color: tomato;
+  font-size: 25px;
+  transition: background-color .2s, color .2;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu__button:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: brown;
+}
+
+.menu__button:active {
+  background-color: rgba(143, 138, 138, 0.9);
+  color: rgb(30, 185, 30);
+}
+
+.menu__button:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: solid tomato;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  right: 12px;
+  top: 20px;
+  transition: transform .2s;
+}
+
+.dropdown-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(231, 224, 224);
+  position: absolute;
+  min-width: 150px;
+  transform: translatey(-100px) scale(0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility .2s, opacity .2s, transform .2s;
+  z-index: 1;
+}
+
+.menu__item.menu__item_open .menu__button:after {
+  transform: rotate(-135deg);
+}
+
+.menu__item.menu__item_open .dropdown-menu {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  border-radius: 10px;
+}
+
+.dropdown-menu__link {
+  display: block;
+  padding: 15px 20px;
+  color: tomato;
+  font-size: 25px;
+  transition: background-color .2s, color .2s;
+}
+
+.dropdown-menu__link:hover {
+  background-color: rgba(255, 255, 255, .5);
+  color: brown;
+}
+
+.dropdown-menu__link:active {
+  background-color: rgba(143, 138, 138, 0.9);
+  color: rgb(30, 185, 30);
+}
+
+
+
+/*history*/
+.history__desc {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.history__text {
+  line-height: 52px;
+  font-size: 30px;
+}
+
+.history__box_top,
+.history__foto_sssr-top,
+.history__suzdal_today-top,
+.kreml__box_top,
+.shopping-malls__box_top,
+.museum-wooden-architecture__box_top {
+  max-width: 1780px;
+  min-height: 600px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  transition: .7s;
+  cursor: pointer;
+}
+
+.history__box_top:hover,
+.history__foto_sssr-top:hover,
+.history__suzdal_today-top:hover,
+.kreml__box_top:hover,
+.shopping-malls__box_top:hover,
+.museum-wooden-architecture__box_top:hover {
+  scale: 1.2;
+}
+
+.history__box_bottom,
+.history__foto_sssr-bottom,
+.history__suzdal_today-bottom,
+.kreml__box-bottom,
+.shopping-malls__box-bottom,
+.museum-wooden-architecture__box-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1780px;
+  min-height: 200px;
+
+}
+
+.history__box_all,
+.history__suzdal_today-all,
+.history__foto_sssr-all,
+.kreml__box-all,
+.kreml__box_desc,
+.shopping-malls__box-all,
+.shopping-malls__box_desc,
+.museum-wooden-architecture__box-all,
+.museum-wooden-architecture__box_desc {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: .7s;
+  cursor: pointer;
+}
+
+.history__box_all:hover,
+.history__suzdal_today-all:hover,
+.history__foto_sssr-all:hover,
+.kreml__box_desc:hover,
+.shopping-malls__box_desc:hover,
+.museum-wooden-architecture__box_desc:hover {
+  scale: 1.2;
+}
+
+.history__box_top {
+  background-image: url(../img/old-foto/img-old-1.PNG);
+}
+
+.history__box_1 {
+  background-image: url(../img/old-foto/img-old-2.PNG);
+
+}
+
+.history__box_2 {
+  background-image: url(../img/old-foto/img-old-3.PNG)
+
+}
+
+.history__box_3 {
+  background-image: url(../img/old-foto/img-old-4.PNG);
+
+}
+
+.history__box_4 {
+  background-image: url(../img/old-foto/img-old-5.png);
+
+}
+
+.history__box_5 {
+  background-image: url(../img/old-foto/img-old-6.png);
+
+}
+
+.history__box_6 {
+  background-image: url(../img/old-foto/img-old-7.png);
+
+}
+
+.history__box_7 {
+  background-image: url(../img/old-foto/img-old-8.png);
+
+}
+
+.history__box_8 {
+  background-image: url(../img/old-foto/img-old-9.png);
+
+}
+
+.history__foto_sssr-top {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-1.PNG);
+}
+
+.history__foto_sssr-1 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-2.PNG);
+
+}
+
+.history__foto_sssr-2 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-3.PNG);
+
+}
+
+.history__foto_sssr-3 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-4.PNG);
+
+}
+
+.history__foto_sssr-4 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-5.PNG);
+
+}
+
+.history__foto_sssr-5 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-6.PNG);
+
+}
+
+.history__foto_sssr-6 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-7.PNG);
+
+}
+
+.history__foto_sssr-7 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-8.PNG);
+
+}
+
+.history__foto_sssr-8 {
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-9.PNG);
+
+}
+
+.history__suzdal_today-top {
+  background-image: url(../img/suzdal-today/img-suzdal-today-1.PNG);
+}
+
+.history__suzdal_today-1 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-2.png);
+
+}
+
+.history__suzdal_today-2 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-3.png);
+
+}
+
+.history__suzdal_today-3 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-4.png);
+
+}
+
+.history__suzdal_today-4 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-5.png);
+
+}
+
+.history__suzdal_today-5 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-6.png);
+
+}
+
+.history__suzdal_today-6 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-7.png);
+
+}
+
+.history__suzdal_today-7 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-8.png);
+
+}
+
+.history__suzdal_today-8 {
+  background-image: url(../img/suzdal-today/img-suzdal-today-9.png);
+
+}
+
+/*attractions*/
+
+.attractions {
+  margin-bottom: 100px;
+}
+
+/*kreml*/
+.kreml__box_top {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-1.PNG)
+
+}
+
+.kreml__box-desc {
+  display: block;
+}
+
+.kreml__box-1 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-2.PNG);
+
+}
+
+.kreml__box-2 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-3.PNG);
+}
+
+.kreml__box-3 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-4.PNG);
+}
+
+.kreml__box-4 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-5.PNG);
+}
+
+.kreml__box-5 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-6.PNG);
+}
+
+.kreml__box-6 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-7.PNG);
+}
+
+.kreml__box-7 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-8.PNG);
+}
+
+.kreml__box-8 {
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-9.PNG);
+}
+
+.kreml__box_text,
+.skit__box_text {
+  position: relative;
+  font-size: 20px;
+  z-index: 2;
+}
+
+/*shopping-malls*/
+.shopping-malls__box_top {
+  background-image: url(../img/shopping-malls/img-shopping-malls-1.PNG);
+}
+
+.shopping-malls__box-desc {
+  display: block;
+}
+
+.shopping-malls__box-1 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-2.PNG);
+
+}
+
+.shopping-malls__box-2 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-3.PNG)
+}
+
+.shopping-malls__box-3 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-4.PNG);
+
+}
+
+.shopping-malls__box-4 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-5.PNG)
+}
+
+.shopping-malls__box-5 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-6.PNG)
+}
+
+.shopping-malls__box-6 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-7.PNG)
+}
+
+.shopping-malls__box-7 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-8.PNG)
+}
+
+.shopping-malls__box-8 {
+  background-image: url(../img/shopping-malls/img-shopping-malls-9.PNG)
+}
+
+/*museum-wooden-architecture*/
+
+.museum-wooden-architecture__box_top {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-1.PNG);
+}
+
+.museum-wooden-architecture__box-desc {
+  display: block;
+}
+
+.museum-wooden-architecture__box-1 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-2.PNG);
+
+}
+
+.museum-wooden-architecture__box-2 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-3.PNG);
+
+}
+
+.museum-wooden-architecture__box-3 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-4.PNG);
+
+}
+
+.museum-wooden-architecture__box-4 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-5.PNG);
+
+}
+
+.museum-wooden-architecture__box-5 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-6.PNG);
+
+}
+
+.museum-wooden-architecture__box-6 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-7.PNG);
+
+}
+
+.museum-wooden-architecture__box-7 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-8.PNG);
+
+}
+
+.museum-wooden-architecture__box-8 {
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-9.PNG);
+
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1780px;
+  min-height: 150px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.footer__logo,
+.footer__desc,
+.footer__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__logo_img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.footer__icon_box {
+  display: flex;
+  gap: 50px;
+}
+.footer__icon_email,
+.footer__icon_ok,
+.footer__icon_vk,
+.footer__icon_whatsapp {
+  transition: .4s;
+}
+.footer__icon_email:hover,
+.footer__icon_ok:hover,
+.footer__icon_vk:hover,
+.footer__icon_whatsapp:hover {
+  scale: 1.3;
+  
+}
+.footer__svg-one,
+.footer__svg-two,
+.footer__svg-three,
+.footer__svg-four{
+  transition: .4s;
+}
+
+.footer__svg-one:hover,
+.footer__svg-two:hover,
+.footer__svg-three:hover,
+.footer__svg-four:hover{
+  fill: rgb(60, 117, 2);
+}
