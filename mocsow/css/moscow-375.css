@@ -1,0 +1,9 @@
+
+@media (max-width:375px){
+  .burger {
+    left: 9%;
+  }
+  .burger-menu {
+    left: 140px;
+  }
+}

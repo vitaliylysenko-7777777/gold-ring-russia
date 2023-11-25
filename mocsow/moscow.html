@@ -6,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/moscow.css">
-  <link rel="stylesheet" href="css/moscow-440.css">
+  <link rel="stylesheet" href="css/moscow-768.css">
+  <link rel="stylesheet" href="css/moscow-425.css">
+  <link rel="stylesheet" href="css/moscow-375.css">
+  <link rel="stylesheet" href="css/moscow-320.css">
   <title>Москва</title>
 </head>
 
 <body>
   <div class="container">
-    <header class="header">
+    <header class="header" id="header">
       <div class="header__top">
         <div class="header-gerb">
           <img class="header-gerb_img" src="img/img-gerb-moscow.PNG" alt="Gerb">
@@ -20,7 +23,20 @@
         <h1 class="title-h1">
           Москва
         </h1>
+        <botton class="burger" id="burger">
+          <div class="burger__line burger__line_one" id="line-one">
+
+          </div>
+          <div class="burger__line burger__line_two" id="line-two">
+
+          </div>
+          <div class="burger__line burger__line_three" id="line-three">
+
+          </div>
+
+        </botton>
       </div>
+
       <nav class="header__nav">
         <ul class="menu">
           <li class="menu__item">
@@ -93,6 +109,48 @@
           </li>
         </ul>
       </nav>
+      <ul class="burger-menu-history" id="burger-menu-history">
+        <li class="burger-menu-history__item">
+          <a href="#history__foto">исторические фото</a>
+        </li>
+        <li class="burger-menu-history__item">
+          <a href="#history__foto_sssr">Москва в 50-е</a>
+        </li>
+        <li class="burger-menu-history__item">
+          <a href="#history__moscow_today">Москва сегодня</a>
+        </li>
+      </ul>
+      <ul class="burger-menu-travel" id="burger-menu-travel">
+        <li class="burger-menu-travel__item">
+          <a href="https://www.tutu.ru/rasp.php?st1=20000&st2=48507" target="_blank">Ж/Д
+            Транспортом</a>
+        </li>
+        </li>
+        <li class="burger-menu-travel__item">
+          <a href="https://bus.tutu.ru/raspisanie/gorod_Moskva/gorod_Sergiev-Posad/?ysclid=lmu4w0tbx2703774860"
+            target="_blank">Междугородним автобусом</a>
+        </li>
+        <li class="burger-menu-travel__item">
+          <a href="https://yandex.ru/maps/?ll=37.552727%2C56.124857&mode=routes&rtext=55.755864%2C37.617698~56.315311%2C38.135972&rtt=auto&ruri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzAwMDA5NBIa0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAiCg2GeBZCFQEGX0I%2C~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzA2MzI4ORJM0KDQvtGB0YHQuNGPLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KHQtdGA0LPQuNC10LIg0J_QvtGB0LDQtCIKDTyLGEIV4UJhQg%2C%2C&utm_source=main_stripe_big&z=9.42"
+            target="_blank">
+            На автомобиле</a>
+        </li>
+      </ul>
+      <ul class="burger-menu-attractions" id="burger-menu-attractions">
+        <li class="burger-menu-attractions__item">
+          <a  href="#attractions__title">Достопримечательности Москвы
+            Кремль</a>
+        </li>
+        </li>
+        <li class="burger-menu-attractions__item">
+          <a  href="#red-square">Достопримечательности Москвы
+            Красная площадь</a>
+        </li>
+        <li class="burger-menu-attractions__item">
+          <a  href="#vdnh">Достопримечательности Москвы
+            ВДНХ</a>
+        </li>
+      </ul>
     </header>
     <section class="history">
       <h2 class="title__h2">

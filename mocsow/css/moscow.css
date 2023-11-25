@@ -82,15 +82,143 @@ li {
   border-radius: 10%;
 }
 
+/*burger*/
+.burger {
+  display: none;
+  position: relative;
+  left: 18%;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 3;
+  background-color: rgb(189, 235, 235);
+}
+
+.burger__line {
+
+  position: relative;
+  margin: 0 auto;
+  width: 40px;
+  height: 2px;
+  background-color: blue;
+}
+
+.burger__line_one {
+  top: 10px;
+}
+
+.burger__line_one-activ {
+  top: 22px;
+  transform: rotate(45deg);
+}
+
+.burger__line_two {
+  top: 20px;
+}
+
+.burger__line_two-activ {
+  opacity: 0;
+}
+
+.burger__line_three {
+  top: 30px;
+}
+
+.burger__line_three-activ {
+  top: 19px;
+  transform: rotate(-45deg);
+}
+
 .header__nav {
   padding-top: 12%;
+}
+
+.burger-menu {
+  position: relative;
+  top: -515px;
+  left: 190px;
+  width: 200px;
+  min-height: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+
+  background-color: burlywood;
+}
+
+.burger-menu__activ {
+  opacity: 1;
+}
+
+.burger-menu-history {
+  position: relative;
+  left: 5%;
+  top: -40px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 170px;
+  min-height: 100px;
+  background-color: rgb(247, 220, 184);
+  opacity: 0;
+}
+
+.burger-menu-history__activ {
+  opacity: 1;
+  z-index: 2;
+}
+
+.burger-menu-history__item {
+  margin-bottom: 10px;
+}
+
+.burger-menu-travel {
+  position: relative;
+  left: 20%;
+  top: -110px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 170px;
+  min-height: 100px;
+  background-color: rgb(247, 220, 184);
+  opacity: 0;
+}
+
+.burger-menu-travel__activ {
+  opacity: 1;
+  z-index: 2;
+}
+
+.burger-menu-travel__item {
+  margin-bottom: 10px;
+}
+
+.burger-menu-attractions {
+  position: relative;
+  left: 20%;
+  top: -190px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 200px;
+  min-height: 100px;
+  background-color: rgb(247, 220, 184);
+  opacity: 0;
+}
+
+.burger-menu-attractions__activ {
+  opacity: 1;
+  z-index: 2;
+}
+
+.burger-menu-attractions__item {
+  margin-bottom: 10px;
 }
 
 .menu {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 50px;
+  gap: 3%;
   justify-content: center;
 }
 
@@ -106,7 +234,7 @@ li {
   padding: 15px;
   padding-right: 30px;
   color: tomato;
-  font-size: 25px;
+  font-size: 1vw;
   transition: background-color .2s, color .2;
   cursor: pointer;
   z-index: 2;
@@ -272,7 +400,6 @@ li {
 
 .history__box_2 {
   background-image: url(../img/old-foto/img-old-3.PNG)
-
 }
 
 .history__box_3 {
@@ -402,7 +529,6 @@ li {
 /*kreml*/
 .kreml__box_top {
   background-image: url(../img/moscow-kreml/img-moscow-kreml-1.PNG)
-
 }
 
 .kreml__box-desc {
@@ -570,29 +696,32 @@ li {
   display: flex;
   gap: 50px;
 }
+
 .footer__icon_email,
 .footer__icon_ok,
 .footer__icon_vk,
 .footer__icon_whatsapp {
   transition: .4s;
 }
+
 .footer__icon_email:hover,
 .footer__icon_ok:hover,
 .footer__icon_vk:hover,
 .footer__icon_whatsapp:hover {
   scale: 1.3;
-  
+
 }
+
 .footer__svg-one,
 .footer__svg-two,
 .footer__svg-three,
-.footer__svg-four{
+.footer__svg-four {
   transition: .4s;
 }
 
 .footer__svg-one:hover,
 .footer__svg-two:hover,
 .footer__svg-three:hover,
-.footer__svg-four:hover{
+.footer__svg-four:hover {
   fill: rgb(60, 117, 2);
 }
