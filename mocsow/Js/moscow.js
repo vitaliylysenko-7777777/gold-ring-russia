@@ -26,7 +26,7 @@ document.body.addEventListener('click', function (event) {
         item.classList.remove('menu__item_open')
     })
 })
-
+// Burger
 let burger = document.getElementById("burger")
 let lineOne = document.getElementById("line-one")
 let lineTwo = document.getElementById("line-two")

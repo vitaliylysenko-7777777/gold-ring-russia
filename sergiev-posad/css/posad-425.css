@@ -1,4 +1,4 @@
-@media (max-width:440px) {
+@media (max-width:425px) {
   body {
     margin: 0 auto;
 
@@ -6,7 +6,7 @@
 
   .container {
     max-width: 430px;
-    min-height: 300px;
+    max-height: 1vw;
     padding: 0 10px;
   }
 
@@ -23,8 +23,16 @@
     gap: 25px;
   }
 
+  .burger {
+    display: block;
+  }
+
   .title-h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  .header__nav {
+    display: none;
   }
 
   .menu {
@@ -58,6 +66,7 @@
   .title__h2 {
     font-size: 20px;
   }
+
   .title__h3 {
     font-size: 20px;
   }
@@ -69,13 +78,14 @@
 
   .history__box_top,
   .history__foto_sssr-top,
-  .history__posad_today-top,
-  .lavra__box_top,
-  .skit__box_top,
-  .kluch__box_top {
+  .history__moscow_today-top,
+  .kreml__box_top,
+  .red-square__box_top,
+  .vdnh__box_top {
     min-height: 200px;
   }
-  .footer__icon_box {    
+
+  .footer__icon_box {
     gap: 10px;
-}
+  }
 }

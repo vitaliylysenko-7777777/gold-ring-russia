@@ -47,7 +47,7 @@ li {
   text-align: center;
   font-size: 40px;
   margin: 0;
-  margin: 70px 0;
+  margin: 30px 0;
 }
 
 .title__h3 {
@@ -85,8 +85,8 @@ li {
 /*burger*/
 .burger {
   display: none;
-  position: relative;
-  left: 18%;
+  position: absolute;
+  left: 82%;
   width: 45px;
   height: 45px;
   border-radius: 5px;
@@ -135,9 +135,9 @@ li {
 }
 
 .burger-menu {
-  position: relative;
-  top: -515px;
-  left: 190px;
+  position: absolute;
+  top: 14px;
+    left: 200px;
   width: 200px;
   min-height: 100px;
   padding: 5px;
@@ -152,9 +152,9 @@ li {
 }
 
 .burger-menu-history {
-  position: relative;
-  left: 5%;
-  top: -40px;
+  position: absolute;
+  left: 7%;
+    top: 30px;
   padding: 5px;
   border-radius: 10px;
   width: 170px;
@@ -173,9 +173,9 @@ li {
 }
 
 .burger-menu-travel {
-  position: relative;
-  left: 20%;
-  top: -110px;
+  position: absolute;
+  left: 7%;
+    top: 60px;
   padding: 5px;
   border-radius: 10px;
   width: 170px;
@@ -194,9 +194,9 @@ li {
 }
 
 .burger-menu-attractions {
-  position: relative;
-  left: 20%;
-  top: -190px;
+  position: absolute;
+  left: 0%;
+  top: 10px;
   padding: 5px;
   border-radius: 10px;
   width: 200px;

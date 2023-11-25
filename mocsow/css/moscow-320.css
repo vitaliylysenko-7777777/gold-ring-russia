@@ -1,13 +1,13 @@
 
 @media (max-width:320px) {
   .burger {
-    left: -4%;
+    left: 80%;
   }
   .burger-menu {
-    left: 93px;
-    top: -500px;
+    left: 106px;
+   
   }
   .burger-menu-history {
-    top: -20px;
+    top: 45px;
   }
 }
