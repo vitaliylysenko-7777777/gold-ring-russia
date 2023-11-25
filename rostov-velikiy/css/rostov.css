@@ -58,7 +58,7 @@ li {
 /*header*/
 .header {
   min-height: 600px;
-  background-image: url(../img/img-rostov-panorama.PNG);
+  background-image: url(../img/img-rostov-panorama.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 50px;
@@ -259,135 +259,135 @@ li {
 }
 
 .history__box_top {
-  background-image: url(../img/old-foto/img-old-1.PNG)
+  background-image: url(../img/old-foto/img-old-1.jpg)
 }
 
 .history__box_1 {
-  background-image: url(../img/old-foto/img-old-2.PNG);
+  background-image: url(../img/old-foto/img-old-2.jpg);
 
 }
 
 .history__box_2 {
-  background-image: url(../img/old-foto/img-old-3.PNG);
+  background-image: url(../img/old-foto/img-old-3.jpg);
 
 }
 
 .history__box_3 {
-  background-image: url(../img/old-foto/img-old-4.PNG);
+  background-image: url(../img/old-foto/img-old-4.jpg);
 
 }
 
 .history__box_4 {
-  background-image: url(../img/old-foto/img-old-5.PNG);
+  background-image: url(../img/old-foto/img-old-5.jpg);
 
 }
 
 .history__box_5 {
-  background-image: url(../img/old-foto/img-old-6.PNG);
+  background-image: url(../img/old-foto/img-old-6.jpg);
 
 }
 
 .history__box_6 {
-  background-image: url(../img/old-foto/img-old-7.PNG)
+  background-image: url(../img/old-foto/img-old-7.jpg)
 }
 
 .history__box_7 {
-  background-image: url(../img/old-foto/img-old-8.PNG);
+  background-image: url(../img/old-foto/img-old-8.jpg);
 
 }
 
 .history__box_8 {
-  background-image: url(../img/old-foto/img-old-9.PNG);
+  background-image: url(../img/old-foto/img-old-9.jpg);
 
 }
 
 /* Эпоха СССР*/
 .history__foto_sssr-top {
-  background-image: url(../img/rostov-1950/img-rostov-1950-1.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-1.jpg);
 }
 
 .history__foto_sssr-1 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-2.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-2.jpg);
 
 }
 
 .history__foto_sssr-2 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-3.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-3.jpg);
 
 }
 
 .history__foto_sssr-3 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-4.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-4.jpg);
 
 }
 
 .history__foto_sssr-4 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-5.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-5.jpg);
 
 }
 
 .history__foto_sssr-5 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-6.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-6.jpg);
 
 }
 
 .history__foto_sssr-6 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-7.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-7.jpg);
 
 }
 
 .history__foto_sssr-7 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-8.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-8.jpg);
 
 }
 
 .history__foto_sssr-8 {
-  background-image: url(../img/rostov-1950/img-rostov-1950-9.PNG);
+  background-image: url(../img/rostov-1950/img-rostov-1950-9.jpg);
 
 }
 
 /*Сегодня*/
 .history__rostov_today-top {
-  background-image: url(../img/rostov-today/img-rostov-today-1.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-1.jpg);
 }
 
 .history__rostov_today-1 {
-  background-image: url(../img/rostov-today/img-rostov-today-2.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-2.jpg);
 
 }
 
 .history__rostov_today-2 {
-  background-image: url(../img/rostov-today/img-rostov-today-3.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-3.jpg);
 
 }
 
 .history__rostov_today-3 {
-  background-image: url(../img/rostov-today/img-rostov-today-4.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-4.jpg);
 
 }
 
 .history__rostov_today-4 {
-  background-image: url(../img/rostov-today/img-rostov-today-5.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-5.jpg);
 
 }
 
 .history__rostov_today-5 {
-  background-image: url(../img/rostov-today/img-rostov-today-6.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-6.jpg);
 
 }
 
 .history__rostov_today-6 {
-  background-image: url(../img/rostov-today/img-rostov-today-7.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-7.jpg);
 
 }
 
 .history__rostov_today-7 {
-  background-image: url(../img/rostov-today/img-rostov-today-8.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-8.jpg);
 
 }
 
 .history__rostov_today-8 {
-  background-image: url(../img/rostov-today/img-rostov-today-9.PNG);
+  background-image: url(../img/rostov-today/img-rostov-today-9.jpg);
 
 }
 
@@ -399,7 +399,7 @@ li {
 
 /*kreml*/
 .kreml__box_top {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-1.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-1.jpg);
 
 }
 
@@ -408,36 +408,36 @@ li {
 }
 
 .kreml__box-1 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-2.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-2.jpg);
 
 }
 
 .kreml__box-2 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-3.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-3.jpg);
 }
 
 .kreml__box-3 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-4.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-4.jpg);
 }
 
 .kreml__box-4 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-5.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-5.jpg);
 }
 
 .kreml__box-5 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-6.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-6.jpg);
 }
 
 .kreml__box-6 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-7.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-7.jpg);
 }
 
 .kreml__box-7 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-8.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-8.jpg);
 }
 
 .kreml__box-8 {
-  background-image: url(../img/rostov-kreml/img-rostov-kreml-9.PNG);
+  background-image: url(../img/rostov-kreml/img-rostov-kreml-9.jpg);
 }
 
 .kreml__box_text,
@@ -450,7 +450,7 @@ li {
 
 /*isidor-hram*/
 .isidor-hram__box_top {
-  background-image: url(../img/isidor-hram/img-isidor-hram-1.PNG);
+  background-image: url(../img/isidor-hram/img-isidor-hram-1.jpg);
 }
 
 .isidor-hram__box-desc {
@@ -458,21 +458,21 @@ li {
 }
 
 .isidor-hram__box-1 {
-  background-image: url(../img/isidor-hram/img-isidor-hram-2.PNG);
+  background-image: url(../img/isidor-hram/img-isidor-hram-2.jpg);
 
 }
 
 .isidor-hram__box-2 {
-  background-image: url(../img/isidor-hram/img-isidor-hram-3.PNG)
+  background-image: url(../img/isidor-hram/img-isidor-hram-3.jpg)
 }
 
 .isidor-hram__box-3 {
-  background-image: url(../img/isidor-hram/img-isidor-hram-4.png);
+  background-image: url(../img/isidor-hram/img-isidor-hram-4.jpg);
 
 }
 
 .isidor-hram__box-4 {
-  background-image: url(../img/isidor-hram/img-isidor-hram-5.PNG)
+  background-image: url(../img/isidor-hram/img-isidor-hram-5.jpg)
 }
 
 /*spso-yavlenskiy*/
@@ -486,42 +486,42 @@ li {
 }
 
 .spso-yavlenskiy__box-1 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-2.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-2.jpg);
 
 }
 
 .spso-yavlenskiy__box-2 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-3.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-3.jpg);
 
 }
 
 .spso-yavlenskiy__box-3 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-4.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-4.jpg);
 
 }
 
 .spso-yavlenskiy__box-4 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-5.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-5.jpg);
 
 }
 
 .spso-yavlenskiy__box-5 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-6.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-6.jpg);
 
 }
 
 .spso-yavlenskiy__box-6 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-7.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-7.jpg);
 
 }
 
 .spso-yavlenskiy__box-7 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-8.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-8.jpg);
 
 }
 
 .spso-yavlenskiy__box-8 {
-  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-9.PNG);
+  background-image: url(../img/spaso-yvlenskiy/img-spaso-yavlenskiy-9.jpg);
 
 }
 
