@@ -60,7 +60,7 @@ li {
 /*header*/
 .header {
   min-height: 600px;
-  background-image: url(../img/img-suzdal-panorama.PNG);
+  background-image: url(../img/img-suzdal-panorama.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 50px;
@@ -262,134 +262,134 @@ li {
 }
 
 .history__box_top {
-  background-image: url(../img/old-foto/img-old-1.PNG);
+  background-image: url(../img/old-foto/img-old-1.jpg);
 }
 
 .history__box_1 {
-  background-image: url(../img/old-foto/img-old-2.PNG);
+  background-image: url(../img/old-foto/img-old-2.jpg);
 
 }
 
 .history__box_2 {
-  background-image: url(../img/old-foto/img-old-3.PNG)
+  background-image: url(../img/old-foto/img-old-3.jpg)
 
 }
 
 .history__box_3 {
-  background-image: url(../img/old-foto/img-old-4.PNG);
+  background-image: url(../img/old-foto/img-old-4.jpg);
 
 }
 
 .history__box_4 {
-  background-image: url(../img/old-foto/img-old-5.png);
+  background-image: url(../img/old-foto/img-old-5.jpg);
 
 }
 
 .history__box_5 {
-  background-image: url(../img/old-foto/img-old-6.png);
+  background-image: url(../img/old-foto/img-old-6.jpg);
 
 }
 
 .history__box_6 {
-  background-image: url(../img/old-foto/img-old-7.png);
+  background-image: url(../img/old-foto/img-old-7.jpg);
 
 }
 
 .history__box_7 {
-  background-image: url(../img/old-foto/img-old-8.png);
+  background-image: url(../img/old-foto/img-old-8.jpg);
 
 }
 
 .history__box_8 {
-  background-image: url(../img/old-foto/img-old-9.png);
+  background-image: url(../img/old-foto/img-old-9.jpg);
 
 }
 
 .history__foto_sssr-top {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-1.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-1.jpg);
 }
 
 .history__foto_sssr-1 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-2.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-2.jpg);
 
 }
 
 .history__foto_sssr-2 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-3.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-3.jpg);
 
 }
 
 .history__foto_sssr-3 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-4.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-4.jpg);
 
 }
 
 .history__foto_sssr-4 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-5.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-5.jpg);
 
 }
 
 .history__foto_sssr-5 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-6.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-6.jpg);
 
 }
 
 .history__foto_sssr-6 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-7.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-7.jpg);
 
 }
 
 .history__foto_sssr-7 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-8.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-8.jpg);
 
 }
 
 .history__foto_sssr-8 {
-  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-9.PNG);
+  background-image: url(../img/suzdal-sssr/img-suzdal-sssr-9.jpg);
 
 }
 
 .history__suzdal_today-top {
-  background-image: url(../img/suzdal-today/img-suzdal-today-1.PNG);
+  background-image: url(../img/suzdal-today/img-suzdal-today-1.jpg);
 }
 
 .history__suzdal_today-1 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-2.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-2.jpg);
 
 }
 
 .history__suzdal_today-2 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-3.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-3.jpg);
 
 }
 
 .history__suzdal_today-3 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-4.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-4.jpg);
 
 }
 
 .history__suzdal_today-4 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-5.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-5.jpg);
 
 }
 
 .history__suzdal_today-5 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-6.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-6.jpg);
 
 }
 
 .history__suzdal_today-6 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-7.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-7.jpg);
 
 }
 
 .history__suzdal_today-7 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-8.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-8.jpg);
 
 }
 
 .history__suzdal_today-8 {
-  background-image: url(../img/suzdal-today/img-suzdal-today-9.png);
+  background-image: url(../img/suzdal-today/img-suzdal-today-9.jpg);
 
 }
 
@@ -401,7 +401,7 @@ li {
 
 /*kreml*/
 .kreml__box_top {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-1.PNG)
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-1.jpg)
 
 }
 
@@ -410,36 +410,36 @@ li {
 }
 
 .kreml__box-1 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-2.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-2.jpg);
 
 }
 
 .kreml__box-2 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-3.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-3.jpg);
 }
 
 .kreml__box-3 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-4.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-4.jpg);
 }
 
 .kreml__box-4 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-5.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-5.jpg);
 }
 
 .kreml__box-5 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-6.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-6.jpg);
 }
 
 .kreml__box-6 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-7.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-7.jpg);
 }
 
 .kreml__box-7 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-8.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-8.jpg);
 }
 
 .kreml__box-8 {
-  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-9.PNG);
+  background-image: url(../img/suzdal-kreml/img-suzdal-kreml-9.jpg);
 }
 
 .kreml__box_text,
@@ -451,7 +451,7 @@ li {
 
 /*shopping-malls*/
 .shopping-malls__box_top {
-  background-image: url(../img/shopping-malls/img-shopping-malls-1.PNG);
+  background-image: url(../img/shopping-malls/img-shopping-malls-1.jpg);
 }
 
 .shopping-malls__box-desc {
@@ -459,43 +459,43 @@ li {
 }
 
 .shopping-malls__box-1 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-2.PNG);
+  background-image: url(../img/shopping-malls/img-shopping-malls-2.jpg);
 
 }
 
 .shopping-malls__box-2 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-3.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-3.jpg)
 }
 
 .shopping-malls__box-3 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-4.PNG);
+  background-image: url(../img/shopping-malls/img-shopping-malls-4.jpg);
 
 }
 
 .shopping-malls__box-4 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-5.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-5.jpg)
 }
 
 .shopping-malls__box-5 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-6.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-6.jpg)
 }
 
 .shopping-malls__box-6 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-7.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-7.jpg)
 }
 
 .shopping-malls__box-7 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-8.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-8.jpg)
 }
 
 .shopping-malls__box-8 {
-  background-image: url(../img/shopping-malls/img-shopping-malls-9.PNG)
+  background-image: url(../img/shopping-malls/img-shopping-malls-9.jpg)
 }
 
 /*museum-wooden-architecture*/
 
 .museum-wooden-architecture__box_top {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-1.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-1.jpg);
 }
 
 .museum-wooden-architecture__box-desc {
@@ -503,42 +503,42 @@ li {
 }
 
 .museum-wooden-architecture__box-1 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-2.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-2.jpg);
 
 }
 
 .museum-wooden-architecture__box-2 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-3.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-3.jpg);
 
 }
 
 .museum-wooden-architecture__box-3 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-4.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-4.jpg);
 
 }
 
 .museum-wooden-architecture__box-4 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-5.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-5.jpg);
 
 }
 
 .museum-wooden-architecture__box-5 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-6.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-6.jpg);
 
 }
 
 .museum-wooden-architecture__box-6 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-7.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-7.jpg);
 
 }
 
 .museum-wooden-architecture__box-7 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-8.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-8.jpg);
 
 }
 
 .museum-wooden-architecture__box-8 {
-  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-9.PNG);
+  background-image: url(../img/museum-wooden-architecture/img-museum-wooden-architecture-9.jpg);
 
 }
 
