@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  margin: 0 auto;
   background-color: gainsboro;
   font-family: 'Montserrat', sans-serif;
 
@@ -28,16 +27,22 @@ li {
   list-style: none;
 }
 
+.content {
+  max-width: 1800px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
 /*container*/
 .container {
   position: relative;
-  max-width: 1800px;
-  min-height: 730px;
+  aspect-ratio: 5/3;
   margin: 0 auto;
   background-image: url(../img/img-zolotoe-kolso.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .title-one {
@@ -154,26 +159,25 @@ li {
 
 /*Box*/
 .box {
-  margin: 0 auto;
-  padding: 20px 20px;
   display: flex;
   flex-wrap: wrap;
   max-width: 1800px;
   min-height: 200px;
   gap: 20px;
-
+  justify-content: center;
 }
 
 .box__all {
-  width: 19%;
-  height: 200px;
+  width: 17%;
+ 
   opacity: 0;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   border: 4px solid yellow;
   border-radius: 10px;
   cursor: pointer;
   transition: .5s;
+  aspect-ratio: 5/3;
 }
 
 .box__1 {
@@ -364,5 +368,5 @@ li {
 
 .box__title {
   color: tomato;
-  font-size: 25px;
+  font-size: 150%;
 }

@@ -1,18 +1,9 @@
 @media (max-width:440px) {
-  body {
-    margin: 0 auto;  
-   
-  }
-
-  .container {
-    max-width: 440px;
-    min-height: 300px;
-  }
-
+ 
   .title-one {
-    top: 9%;
-    left: 39%;
-    font-size: 30px;
+    top: 7%;
+    left: 40%;
+    font-size: 140%;
   }
 
   .container-img {
@@ -23,8 +14,7 @@
     border: 2px solid yellow;
   }
   .box__all {
-    width: 100%;
-    height: 200px;    
+    width: 90%;
   }
   
 }

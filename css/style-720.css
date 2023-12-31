@@ -1,11 +1,5 @@
 @media (max-width:720px) {
-  body {
-    margin: 0 auto;
-  }
-  .container {
-    max-width: 720px;
-    min-height: 500px;
-  }
+ 
   .title-one {
     top: 9%;
     left: 39%;
